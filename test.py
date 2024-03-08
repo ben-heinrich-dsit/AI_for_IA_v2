@@ -7,7 +7,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.runnables import RunnableParallel
 
 #load PDFs from diretory
-loader = DirectoryLoader("/home/allesklar59/Test_impact_assessments")
+loader = DirectoryLoader(#insert directory filepath)
     
 docs = loader.load()
 
